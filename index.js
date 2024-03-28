@@ -1,11 +1,9 @@
-// API Key: a300003f66ba18b791936062a7d0bbcd
-
 async function fetchWeather() {
     let searchInput = document.getElementById('search').value;
     const weatherDataSection = document.getElementById("weather-data");
     weatherDataSection.style.display = "block";
   
-    const apiKey = "a300003f66ba18b791936062a7d0bbcd"
+    const apiKey = "API_KEY_HERE"
   
   
     if (searchInput == "") {
